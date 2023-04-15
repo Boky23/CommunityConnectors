@@ -1,0 +1,74 @@
+.header-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+.header-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background-image: url("../img/logo.png");
+    background-size: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+.header-text {
+    position: relative;
+    top:100%;
+    font-size: 25px;
+    color: black;
+    z-index: 2;
+    text-align: center;
+  }
+
+.header-buttons {
+    position: relative;
+    top:100%;
+    z-index: 2;
+    text-align: center;
+}
+
+.box-wrapper{
+     width: 360px;
+     padding: 20px;
+     position: relative;
+}
+
+.project-box-wrapper{
+  width: 80%;
+  padding: 20px;
+  position: relative;
+}
+
+.faq-box-wrapper{
+  width: 90%;
+  padding: 20px;
+  position: relative;
+}
+
+
+#header-padding{
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .header-item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-image: url("../img/logo.png");
+        background-size: 50%;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+  }
+  
